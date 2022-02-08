@@ -137,3 +137,15 @@ grid.arrange(p1,p2,p3,p4,p5,
              p16,p17,p18,p19,p20,
              p21,p22,p23,p24,p25,
              nrow = 5, ncol = 5)
+
+
+#Letra mais usada como primeira
+head(df[order(df$pri, decreasing = T),6],5)
+#Letra mais usada como segunda
+head(df[order(df$seg, decreasing = T),6],5)
+#Letra mais usada como terceira
+head(df[order(df$ter, decreasing = T),6],5)
+#Letra mais usada como quarta
+head(df[order(df$qua, decreasing = T),6],5)
+#Letra mais usada como quinta
+head(df[order(df$qui, decreasing = T),6],5)
