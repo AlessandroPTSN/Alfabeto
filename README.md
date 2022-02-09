@@ -1,5 +1,5 @@
 # Alfabeto
-Dicas para quem tá jogando http://term.ooo (talvez algumas meio óbvias):  
+Dicas para quem tá jogando http://term.ooo (talvez algumas meio óbvias):   
 -Tentar começar chutando A,O, E, I, R  
 São as que mais aparecem  
 -Algumas consoantes simplesmente não aparecem no final das palavras  
