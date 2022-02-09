@@ -70,7 +70,7 @@ for(i in 26:1){
   
   
 #fazendo gráfico  
-ggplot(zz, aes(x=as.factor(name), y=value, fill = value)) + 
+p = ggplot(zz, aes(x=as.factor(name), y=value, fill = value)) + 
     geom_bar( stat = "identity") +
     scale_fill_gradient(low="blue",high="red")+ 
     labs(title = paste(toupper(df2[i,2])),subtitle = paste(df2[i,1],"Ocorrencias de letra nas palavras"),
